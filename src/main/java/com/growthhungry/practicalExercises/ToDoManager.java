@@ -1,4 +1,4 @@
-package com.growthhungry;
+package com.growthhungry.practicalExercises;
 
 import java.io.*;
 import java.util.ArrayList;

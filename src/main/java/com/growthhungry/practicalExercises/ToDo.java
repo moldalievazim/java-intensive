@@ -1,4 +1,4 @@
-package com.growthhungry;
+package com.growthhungry.practicalExercises;
 
 public class ToDo {
     private int id;
