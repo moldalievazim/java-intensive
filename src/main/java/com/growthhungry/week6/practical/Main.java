@@ -6,6 +6,9 @@ public class Main {
         Book book1 = new Book("Artur", 300);
         Product<Book> product1 = new Product<>("Artur's life", 15.99, book1);
 
+        Book book2 = new Book("David", 330);
+        Product<Book> product4 = new Product<>("David's wife", 17.99, book2);
+
         // Creating an electronic item
         Electronics electronics1 = new Electronics("Apple", 12);
         Product<Electronics> product2 = new Product<>("iPhone 16", 999, electronics1);
