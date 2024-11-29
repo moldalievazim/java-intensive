@@ -1,4 +1,2 @@
-Alice,85
-Bob,95
-Charlie,abc
-Dave,78
+102,Joe Kim,90.3
+103,Taylor Swift,75.5

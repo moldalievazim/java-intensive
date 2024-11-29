@@ -1,8 +1,9 @@
-package com.growthhungry.practicalExercises;
+package com.growthhungry.week7.practical;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+
 public class ToDoManager {
     public static void saveTasksToFile(String filePath, List<ToDo> tasks) throws IOException {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
@@ -12,6 +13,7 @@ public class ToDoManager {
             }
         }
     }
+
     public static List<ToDo> loadTasksFromFile(String filePath) throws IOException {
         List<ToDo> tasks = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
@@ -22,6 +24,7 @@ public class ToDoManager {
         }
         return tasks;
     }
+
     public static void markTaskAsComplete(int id, String filePath) throws IOException {
         List<ToDo> tasks = loadTasksFromFile(filePath);
         for (ToDo task : tasks) {

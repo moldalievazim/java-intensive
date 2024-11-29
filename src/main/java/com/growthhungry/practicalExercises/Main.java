@@ -1,5 +1,8 @@
 package com.growthhungry.practicalExercises;
 
+import com.growthhungry.week7.practical.ToDo;
+import com.growthhungry.week7.practical.ToDoManager;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -30,3 +33,4 @@ public class Main {
         }
     }
 }
+

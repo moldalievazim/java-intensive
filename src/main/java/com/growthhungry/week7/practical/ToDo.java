@@ -1,4 +1,4 @@
-package com.growthhungry.practicalExercises;
+package com.growthhungry.week7.practical;
 
 public class ToDo {
     private int id;
@@ -31,6 +31,7 @@ public class ToDo {
     public String toString() {
         return id + "," + task + "," + isComplete;
     }
+
     public static ToDo fromString(String data) {
         String[] fields = data.split(",");
         int id = Integer.parseInt(fields[0]);
