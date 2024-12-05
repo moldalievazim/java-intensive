@@ -3,7 +3,7 @@ package com.growthhungry.week8.practical;
 import java.sql.*;
 
 public class Bookstore {
-    private static final String URL = "jdbc:sqlite:C:/Users/arynaliev/IdeaProjects/java-intensive/example.db";
+    private static final String URL = "jdbc:sqlite:/Users/arynaliev/Desktop/db/example.db";
 
     public static void main(String[] args) {
         Bookstore app = new Bookstore();
